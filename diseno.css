@@ -1,0 +1,291 @@
+header{
+	background-color: #ffd274;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 60px;
+}
+
+div.logo img{
+	position: relative;
+	top: -2px;
+	left: 0px;
+	width: 70px;
+	height: 60px;
+}
+
+div.redes img{
+	position: relative;
+	display: inline-block;
+	top: -56px;
+	left: 1200px;
+	width: 50px;
+	height: 50px;
+}
+
+h1{
+	position: absolute;
+	color: brown;
+	font-size: 20px;
+	font-family: consolas;
+	top: -5px;
+	left: 70px;
+}
+
+div.logo {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 230px;
+	height: 60px;
+	background-color: white;
+}
+
+main{
+	background-color: #ffd274;
+	overflow: scroll;
+	position: fixed;
+	top: 60px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+}
+
+.circulo{
+	position: relative;
+	display: inline-block;
+	margin: 50px;
+	top: 100px;
+	left: 260px;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border-radius: 100%;
+
+}
+
+div.circulo h1{
+	position: relative;
+	margin: -5px;
+	color: brown;
+	font-size: 26px;
+	font-family: helvetica;
+	text-align: center;
+	top: 80px;
+	left: 0px;
+}
+
+div.l h1{
+	position: relative;
+	margin: 10px;
+	color: white;
+	font-size: 26px;
+	font-family: helvetica;
+	text-align: center;
+	top: 70px;
+	left: 0px;
+}
+
+aside{
+	background-color: white;
+	position: fixed;
+	top: 60px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 40px;
+}
+
+div.letras h1{
+	position: relative;
+	margin: 90px;
+	color: brown;
+	font-size: 22px;
+	font-family: consolas;
+	display: inline-block;
+	top: -83px;
+	left: 0px;
+}
+
+div.pan img{
+	position: relative;
+	display: inline-block;
+	top: 56px;
+	left: 200px;
+	width: 900px;
+	height: 400px;
+}
+
+div.pan h1{
+	position: relative;
+	color: brown;
+	font-size: 20px;
+	font-family: consolas;
+	top: 35px;
+	left: 10px;
+}
+
+.circulo3{
+	position: relative;
+	display: inline-block;
+	margin: 50px;
+	top: 100px;
+	left: 470px;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border-radius: 100%;
+}
+
+div.circulo3 h1{
+	position: relative;
+	margin: -5px;
+	color: brown;
+	font-size: 22px;
+	font-family: helvetica;
+	text-align: center;
+	top: 80px;
+	left: 0px;
+}
+
+div.XD h1{
+	position: relative;
+	text-align: center;
+	color: brown;
+	font-size: 20px;
+	font-family: consolas;
+	top: 55px;
+	left: 10px;
+}
+
+@media (max-width: 700px){
+	div.logo{
+		width: 70px;
+	}
+
+	h1{
+		display: none;
+	}
+}
+
+@media (max-width: 700px){
+	div.redes img{
+		left: 340px;
+	}
+}
+
+@media (max-width: 700px){
+	div.letras h1{
+	position: relative;
+	margin: 30px;
+	color: brown;
+	font-size: 20px;
+	font-family: consolas;
+	display: inline-block;
+	top: -23px;
+	left: 22px;
+	}
+
+	aside{
+	background-color: white;
+	position: fixed;
+	top: 60px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 130px;
+	}
+}
+
+@media (max-width: 700px){
+	.circulo{
+	position: relative;
+	display: inline-block;
+	margin: 30px;
+	top: 120px;
+	left: 70px;
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border-radius: 100%;
+	}
+
+	div.circulo h1{
+	position: relative;
+	margin: -5px;
+	color: brown;
+	font-size: 22px;
+	font-family: helvetica;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	}
+}
+
+@media (max-width: 700px){
+	div.pan img{
+		position: relative;
+		display: inline-block;
+		top: 130px;
+		left: 40px;
+		width: 400px;
+		height: 200px;
+	}
+}
+
+@media (max-width: 700px){
+	div.pan h1{
+		position: relative;
+		color: brown;
+		font-size: 20px;
+		font-family: consolas;
+		top: 25px;
+		left: 10px;
+	}
+
+	div.pan img{
+		position: relative;
+		display: inline-block;
+		top: 230px;
+		left: 40px;
+		width: 400px;
+		height: 200px;
+	}
+}
+
+@media (max-width: 700px){
+	.circulo3{
+		position: relative;
+		display: inline-block;
+		margin: 30px;
+		top: 120px;
+		left: 70px;
+		width: 300px;
+		height: 300px;
+		background-color: white;
+		border-radius: 100%;
+	}
+div.circulo3 h1{
+		position: absolute;
+		margin: -5px;
+		color: brown;
+		font-size: 22px;
+		font-family: helvetica;
+		text-align: center;
+		top: 0px;
+		left: 0px;
+	}
+}
+
+@media (max-width: 700px){
+	div.XD h1 {
+		position: relative;
+		text-align: center;
+		color: brown;
+		font-size: 20px;
+		font-family: consolas;
+		top: 25px;
+		left: 10px;
+	}
+}
